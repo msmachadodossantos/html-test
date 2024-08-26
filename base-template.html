@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DocumentTitle</title>
+
+    <link
+      rel="stylesheet"
+      href="vendor/msmachadodossantos/chroma-rio/1.4.0/rgb-wheel-twenty-variants.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/msmachadodossantos/chroma-rio/1.4.0/shadow-twenty-variants.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/msmachadodossantos/chroma-rio/1.4.0/brand-twenty-variants.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/msmachadodossantos/chroma-rio/1.4.0/primary-twenty-variants.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/msmachadodossantos/chroma-rio/1.4.0/secondary-twenty-variants.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/msmachadodossantos/chroma-rio/1.4.0/tertiary-twenty-variants.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/msmachadodossantos/chroma-rio/1.4.0/quaternary-twenty-variants.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/msmachadodossantos/chroma-rio/1.4.0/quinary-twenty-variants.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/msmachadodossantos/chroma-rio/1.4.0/elevation.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="vendor/msmachadodossantos/chroma-rio/1.4.0/vendor/twbs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+    <script
+      defer
+      src="vendor/msmachadodossantos/chroma-rio/1.4.0/vendor/twbs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="vendor/twbs/icons/1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="asset/core/css/core.min.css" />
+    <script defer src="asset/core/js/core.min.js"></script>
+  </head>
+
+  <body>
+    <div class="pg-language-selector">
+      <div class="container-xxl">
+        <div class="row gap-md-3">
+          <div class="col"><a href="#">de-DE</a></div>
+          <div class="col"><a href="#">en-US</a></div>
+          <div class="col"><a href="#">es-ES</a></div>
+          <div class="col"><a href="#">fr-FR</a></div>
+          <div class="col"><a href="#">ja-JP</a></div>
+          <div class="col active"><a href="#">pt-BR</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pg-title-bar">
+      <div class="container-xxl">
+        <div class="row">
+          <div class="col">
+            <p class="brand-name">Universidade Católica de Santos</p>
+            <p class="motto">Dilatentur spatia veritatis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pg-icon-bar">
+      <div class="container-xxl">
+        <div class="row">
+          <div class="col">
+            <span
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Open the Pages menu."
+            >
+              <i
+                class="bi bi-list"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#1717602704"
+                aria-controls="1717602704"
+              ></i>
+            </span>
+          </div>
+
+          <div class="col">
+            <span
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Open the Apps menu."
+            >
+              <i
+                class="bi bi-terminal"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#1717603482"
+                aria-controls="1717603482"
+              ></i>
+            </span>
+          </div>
+
+          <div class="col">
+            <span
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Open the Settings menu."
+            >
+              <i
+                class="bi bi-gear"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#1717604480"
+                aria-controls="1717604480"
+              ></i>
+            </span>
+          </div>
+
+          <div class="col">
+            <span
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Go to the Search!"
+            >
+              <i class="bi bi-search"></i>
+            </span>
+          </div>
+
+          <div class="col">
+            <span
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Sign in."
+            >
+              <i class="bi bi-box-arrow-in-right"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pg-container">
+      <div class="pg-breadcrumb">
+        <div class="container-xxl">
+          <div class="row">
+            <div class="col">
+              <nav class="breadcrumb">
+                <a class="breadcrumb-item" href="#">pt-BR</a>
+                <span class="breadcrumb-item active" aria-current="page"
+                  >Primeira página</span
+                >
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pg-body">
+        <div class="pg-body-header">
+          <div class="container-xxl">
+            <div class="row">
+              <div class="col">Primeira página</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pg-body-content">
+          <div class="container-xxl">
+            <div class="row">
+              <div class="d-none d-md-block col-md-4 col-xl-3 pg-aside">
+                <!-- Copy the hyperlinks from the section and subsection listed in the 'offcanvas' menu. -->
+                <nav class="nav flex-column">
+                  <a class="nav-link">
+                    <i class="bi bi-stop-fill"></i>
+                    Classified page #3.
+                  </a>
+                  <a class="indent-1 nav-link">
+                    <i class="bi bi-dot"></i>
+                    Classified page #3.1.
+                  </a>
+                  <a class="indent-1 nav-link">
+                    <i class="bi bi-dot"></i>
+                    Classified page #3.2.
+                  </a>
+                  <a class="indent-1 nav-link">
+                    <i class="bi bi-dot"></i>
+                    Classified page #3.3.
+                  </a>
+                  <a class="indent-1 nav-link">
+                    <i class="bi bi-dot"></i>
+                    Classified page #3.4.
+                  </a>
+                  <a class="indent-1 nav-link">
+                    <i class="bi bi-dot"></i>
+                    Classified page #3.5.
+                  </a>
+                  <!-- Open the related offcanvas menu for these links. -->
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#1717602704"
+                    aria-controls="1717602704"
+                  >
+                    <i class="bi bi-three-dots-vertical"></i>
+                    More...
+                  </a>
+                </nav>
+              </div>
+
+              <div class="col pg-text">Content</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TODO: .pg-body-footer -->
+        <div class="pg-body-footer">
+          <div class="container-xxl">
+            <div class="row">
+              <div class="col">Content</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="offcanvas offcanvas-start offcanvas-pages"
+      data-bs-backdrop="static"
+      tabindex="-1"
+      id="1717602704"
+      aria-labelledby="staticBackdropLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="staticBackdropLabel">Pages.</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="m-3 alert alert-warning alert-dismissible fade show">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+          <p>Some pages aren't listed because you're not signed in.</p>
+          <p class="m-0"><a class="#">Sign in</a> to access all pages.</p>
+        </div>
+
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-house"></i>
+            Homepage.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Page unclassified #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Page unclassified #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Page unclassified #3.
+          </a>
+        </nav>
+
+        <div class="nav-title">
+          <p>Taxonomy term.</p>
+        </div>
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #3.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified page #3.1.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified page #3.2.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified page #3.3.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified page #3.4.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified page #3.5.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #4.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #5.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #6.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #7.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #8.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #9.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #10.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #11.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #12.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #13.
+          </a>
+        </nav>
+
+        <div class="nav-title">
+          <p>Taxonomy term.</p>
+        </div>
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #3.
+          </a>
+        </nav>
+
+        <div class="nav-title">
+          <p>Taxonomy term.</p>
+        </div>
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #3.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #4.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified page #5.
+          </a>
+        </nav>
+      </div>
+    </div>
+
+    <div
+      class="offcanvas offcanvas-start offcanvas-apps"
+      data-bs-backdrop="static"
+      tabindex="-1"
+      id="1717603482"
+      aria-labelledby="staticBackdropLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="staticBackdropLabel">Apps.</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="m-3 alert alert-warning alert-dismissible fade show">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+          <p>Some apps aren't listed because you lack access to them.</p>
+          <p class="m-0 small">144 apps are not listed in this menu.</p>
+        </div>
+
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            App unclassified #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            App unclassified #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            App unclassified #3.
+          </a>
+        </nav>
+
+        <div class="nav-title">
+          <p>Taxonomy term.</p>
+        </div>
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #3.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified app #3.1.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified app #3.2.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified app #3.3.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified app #3.4.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified app #3.5.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #4.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #5.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #6.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #7.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #8.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #9.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #10.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #11.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #12.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #13.
+          </a>
+        </nav>
+
+        <div class="nav-title">
+          <p>Taxonomy term.</p>
+        </div>
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #3.
+          </a>
+        </nav>
+
+        <div class="nav-title">
+          <p>Taxonomy term.</p>
+        </div>
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #3.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #4.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #5.
+          </a>
+        </nav>
+      </div>
+    </div>
+
+    <div
+      class="offcanvas offcanvas-start offcanvas-settings"
+      data-bs-backdrop="static"
+      tabindex="-1"
+      id="1717604480"
+      aria-labelledby="staticBackdropLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="staticBackdropLabel">Settings.</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="m-3 alert alert-warning alert-dismissible fade show">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+          <p>Some apps aren't listed because you lack access to them.</p>
+          <p class="m-0 small">34 apps are not listed in this menu.</p>
+        </div>
+
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            App unclassified #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            App unclassified #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            App unclassified #3.
+          </a>
+        </nav>
+
+        <div class="nav-title">
+          <p>Taxonomy term.</p>
+        </div>
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #3.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified app #3.1.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified app #3.2.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified app #3.3.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified app #3.4.
+          </a>
+          <a class="indent-1 nav-link">
+            <i class="bi bi-dot"></i>
+            Classified app #3.5.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #4.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #5.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #6.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #7.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #8.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #9.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #10.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #11.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #12.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #13.
+          </a>
+        </nav>
+
+        <div class="nav-title">
+          <p>Taxonomy term.</p>
+        </div>
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #3.
+          </a>
+        </nav>
+
+        <div class="nav-title">
+          <p>Taxonomy term.</p>
+        </div>
+        <nav class="nav flex-column">
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #1.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #2.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #3.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #4.
+          </a>
+          <a class="nav-link">
+            <i class="bi bi-stop-fill"></i>
+            Classified app #5.
+          </a>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>

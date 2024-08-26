@@ -1,0 +1,47 @@
+/**
+ * Lighten a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to lighten.
+ * @param {Number} $amount - The amount by which to lighten the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after lightening.
+ */
+/**
+ * Adjust the tone of a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to adjust the tone of.
+ * @param {Number} $amount - The amount by which to adjust the tone (default: 10%).
+ *
+ * @return {Color} - The resulting color after adjusting the tone.
+ */
+/**
+ * Darken a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to darken.
+ * @param {Number} $amount - The amount by which to darken the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after darkening.
+ */
+/**
+ * Mix two colors together by a specified amount.
+ *
+ * @param {Color} $color1 - The first color to mix.
+ * @param {Color} $color2 - The second color to mix.
+ * @param {Number} $amount - The amount by which to mix the colors (default: 50%).
+ *
+ * @return {Color} - The resulting color after mixing.
+ */
+:root {
+  --cr-red: #df050b;
+  --cr-orange: #df750b;
+  --cr-yellow: #dfe40b;
+  --cr-chartreuseGreen: #70e40b;
+  --cr-green: #00e40b;
+  --cr-springGreen: #00e47b;
+  --cr-cyan: #00e4ea;
+  --cr-azure: #0075ea;
+  --cr-blue: #0005ea;
+  --cr-violet: #7005ea;
+  --cr-magenta: #df05ea;
+  --cr-rose: #df057b;
+}

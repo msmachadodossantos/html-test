@@ -1,0 +1,66 @@
+/**
+ * Lighten a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to lighten.
+ * @param {Number} $amount - The amount by which to lighten the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after lightening.
+ */
+/**
+ * Adjust the tone of a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to adjust the tone of.
+ * @param {Number} $amount - The amount by which to adjust the tone (default: 10%).
+ *
+ * @return {Color} - The resulting color after adjusting the tone.
+ */
+/**
+ * Darken a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to darken.
+ * @param {Number} $amount - The amount by which to darken the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after darkening.
+ */
+/**
+ * Mix two colors together by a specified amount.
+ *
+ * @param {Color} $color1 - The first color to mix.
+ * @param {Color} $color2 - The second color to mix.
+ * @param {Number} $amount - The amount by which to mix the colors (default: 50%).
+ *
+ * @return {Color} - The resulting color after mixing.
+ */
+:root {
+  --cr-primary: #9A7D35;
+  --cr-primary-light-10: #a48a49;
+  --cr-primary-light-20: #ae975d;
+  --cr-primary-light-30: #b8a472;
+  --cr-primary-light-40: #c2b186;
+  --cr-primary-light-50: #cdbe9a;
+  --cr-primary-light-60: #d7cbae;
+  --cr-primary-light-70: #e1d8c2;
+  --cr-primary-light-80: #ebe5d7;
+  --cr-primary-light-90: #f5f2eb;
+  --cr-primary-light-100: white;
+  --cr-primary-tone-10: #977d3d;
+  --cr-primary-tone-20: #957e44;
+  --cr-primary-tone-30: #927e4c;
+  --cr-primary-tone-40: #907e53;
+  --cr-primary-tone-50: #8d7f5b;
+  --cr-primary-tone-60: #8a7f62;
+  --cr-primary-tone-70: #887f6a;
+  --cr-primary-tone-80: #857f71;
+  --cr-primary-tone-90: #838079;
+  --cr-primary-tone-100: gray;
+  --cr-primary-dark-10: #8b7130;
+  --cr-primary-dark-20: #7b642a;
+  --cr-primary-dark-30: #6c5825;
+  --cr-primary-dark-40: #5c4b20;
+  --cr-primary-dark-50: #4d3f1b;
+  --cr-primary-dark-60: #3e3215;
+  --cr-primary-dark-70: #2e2610;
+  --cr-primary-dark-80: #1f190b;
+  --cr-primary-dark-90: #0f0d05;
+  --cr-primary-dark-100: black;
+}

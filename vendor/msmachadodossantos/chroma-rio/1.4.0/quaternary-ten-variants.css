@@ -1,0 +1,66 @@
+/**
+ * Lighten a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to lighten.
+ * @param {Number} $amount - The amount by which to lighten the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after lightening.
+ */
+/**
+ * Adjust the tone of a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to adjust the tone of.
+ * @param {Number} $amount - The amount by which to adjust the tone (default: 10%).
+ *
+ * @return {Color} - The resulting color after adjusting the tone.
+ */
+/**
+ * Darken a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to darken.
+ * @param {Number} $amount - The amount by which to darken the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after darkening.
+ */
+/**
+ * Mix two colors together by a specified amount.
+ *
+ * @param {Color} $color1 - The first color to mix.
+ * @param {Color} $color2 - The second color to mix.
+ * @param {Number} $amount - The amount by which to mix the colors (default: 50%).
+ *
+ * @return {Color} - The resulting color after mixing.
+ */
+:root {
+  --cr-quaternary: #D7E4BC;
+  --cr-quaternary-light-10: #dbe7c3;
+  --cr-quaternary-light-20: #dfe9c9;
+  --cr-quaternary-light-30: #e3ecd0;
+  --cr-quaternary-light-40: #e7efd7;
+  --cr-quaternary-light-50: #ebf2de;
+  --cr-quaternary-light-60: #eff4e4;
+  --cr-quaternary-light-70: #f3f7eb;
+  --cr-quaternary-light-80: #f7faf2;
+  --cr-quaternary-light-90: #fbfcf8;
+  --cr-quaternary-light-100: white;
+  --cr-quaternary-tone-10: #cedab6;
+  --cr-quaternary-tone-20: #c6d0b0;
+  --cr-quaternary-tone-30: #bdc6aa;
+  --cr-quaternary-tone-40: #b4bca4;
+  --cr-quaternary-tone-50: #acb29e;
+  --cr-quaternary-tone-60: #a3a898;
+  --cr-quaternary-tone-70: #9a9e92;
+  --cr-quaternary-tone-80: #91948c;
+  --cr-quaternary-tone-90: #898a86;
+  --cr-quaternary-tone-100: gray;
+  --cr-quaternary-dark-10: #c2cda9;
+  --cr-quaternary-dark-20: #acb696;
+  --cr-quaternary-dark-30: #97a084;
+  --cr-quaternary-dark-40: #818971;
+  --cr-quaternary-dark-50: #6c725e;
+  --cr-quaternary-dark-60: #565b4b;
+  --cr-quaternary-dark-70: #414438;
+  --cr-quaternary-dark-80: #2b2e26;
+  --cr-quaternary-dark-90: #161713;
+  --cr-quaternary-dark-100: black;
+}

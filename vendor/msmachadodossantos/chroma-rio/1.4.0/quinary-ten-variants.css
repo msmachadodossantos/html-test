@@ -1,0 +1,66 @@
+/**
+ * Lighten a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to lighten.
+ * @param {Number} $amount - The amount by which to lighten the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after lightening.
+ */
+/**
+ * Adjust the tone of a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to adjust the tone of.
+ * @param {Number} $amount - The amount by which to adjust the tone (default: 10%).
+ *
+ * @return {Color} - The resulting color after adjusting the tone.
+ */
+/**
+ * Darken a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to darken.
+ * @param {Number} $amount - The amount by which to darken the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after darkening.
+ */
+/**
+ * Mix two colors together by a specified amount.
+ *
+ * @param {Color} $color1 - The first color to mix.
+ * @param {Color} $color2 - The second color to mix.
+ * @param {Number} $amount - The amount by which to mix the colors (default: 50%).
+ *
+ * @return {Color} - The resulting color after mixing.
+ */
+:root {
+  --cr-quinary: #FDF5EE;
+  --cr-quinary-light-10: #fdf6f0;
+  --cr-quinary-light-20: #fdf7f1;
+  --cr-quinary-light-30: #fef8f3;
+  --cr-quinary-light-40: #fef9f5;
+  --cr-quinary-light-50: #fefaf7;
+  --cr-quinary-light-60: #fefbf8;
+  --cr-quinary-light-70: #fefcfa;
+  --cr-quinary-light-80: #fffdfc;
+  --cr-quinary-light-90: #fffefd;
+  --cr-quinary-light-100: white;
+  --cr-quinary-tone-10: #f1e9e3;
+  --cr-quinary-tone-20: #e4ded8;
+  --cr-quinary-tone-30: #d8d2cd;
+  --cr-quinary-tone-40: #cbc6c2;
+  --cr-quinary-tone-50: #bfbbb7;
+  --cr-quinary-tone-60: #b2afac;
+  --cr-quinary-tone-70: #a6a3a1;
+  --cr-quinary-tone-80: #999796;
+  --cr-quinary-tone-90: #8d8c8b;
+  --cr-quinary-tone-100: gray;
+  --cr-quinary-dark-10: #e4ddd6;
+  --cr-quinary-dark-20: #cac4be;
+  --cr-quinary-dark-30: #b1aca7;
+  --cr-quinary-dark-40: #98938f;
+  --cr-quinary-dark-50: #7f7b77;
+  --cr-quinary-dark-60: #65625f;
+  --cr-quinary-dark-70: #4c4a47;
+  --cr-quinary-dark-80: #333130;
+  --cr-quinary-dark-90: #191918;
+  --cr-quinary-dark-100: black;
+}

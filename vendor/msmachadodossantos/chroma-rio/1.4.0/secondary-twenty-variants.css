@@ -1,0 +1,96 @@
+/**
+ * Lighten a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to lighten.
+ * @param {Number} $amount - The amount by which to lighten the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after lightening.
+ */
+/**
+ * Adjust the tone of a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to adjust the tone of.
+ * @param {Number} $amount - The amount by which to adjust the tone (default: 10%).
+ *
+ * @return {Color} - The resulting color after adjusting the tone.
+ */
+/**
+ * Darken a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to darken.
+ * @param {Number} $amount - The amount by which to darken the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after darkening.
+ */
+/**
+ * Mix two colors together by a specified amount.
+ *
+ * @param {Color} $color1 - The first color to mix.
+ * @param {Color} $color2 - The second color to mix.
+ * @param {Number} $amount - The amount by which to mix the colors (default: 50%).
+ *
+ * @return {Color} - The resulting color after mixing.
+ */
+:root {
+  --cr-secondary: #C3232B;
+  --cr-secondary-light-5: #c62e36;
+  --cr-secondary-light-10: #c93940;
+  --cr-secondary-light-15: #cc444b;
+  --cr-secondary-light-20: #cf4f55;
+  --cr-secondary-light-25: #d25a60;
+  --cr-secondary-light-30: #d5656b;
+  --cr-secondary-light-35: #d87075;
+  --cr-secondary-light-40: #db7b80;
+  --cr-secondary-light-45: #de868a;
+  --cr-secondary-light-50: #e19195;
+  --cr-secondary-light-55: #e49ca0;
+  --cr-secondary-light-60: #e7a7aa;
+  --cr-secondary-light-65: #eab2b5;
+  --cr-secondary-light-70: #edbdbf;
+  --cr-secondary-light-75: #f0c8ca;
+  --cr-secondary-light-80: #f3d3d5;
+  --cr-secondary-light-85: #f6dedf;
+  --cr-secondary-light-90: #f9e9ea;
+  --cr-secondary-light-95: #fcf4f4;
+  --cr-secondary-light-100: white;
+  --cr-secondary-tone-5: #c0282f;
+  --cr-secondary-tone-10: #bc2c34;
+  --cr-secondary-tone-15: #b93138;
+  --cr-secondary-tone-20: #b6363c;
+  --cr-secondary-tone-25: #b23a40;
+  --cr-secondary-tone-30: #af3f45;
+  --cr-secondary-tone-35: #ac4449;
+  --cr-secondary-tone-40: #a8484d;
+  --cr-secondary-tone-45: #a54d51;
+  --cr-secondary-tone-50: #a25256;
+  --cr-secondary-tone-55: #9e565a;
+  --cr-secondary-tone-60: #9b5b5e;
+  --cr-secondary-tone-65: #975f62;
+  --cr-secondary-tone-70: #946467;
+  --cr-secondary-tone-75: #91696b;
+  --cr-secondary-tone-80: #8d6d6f;
+  --cr-secondary-tone-85: #8a7273;
+  --cr-secondary-tone-90: #877778;
+  --cr-secondary-tone-95: #837b7c;
+  --cr-secondary-tone-100: gray;
+  --cr-secondary-dark-5: #b92129;
+  --cr-secondary-dark-10: #b02027;
+  --cr-secondary-dark-15: #a61e25;
+  --cr-secondary-dark-20: #9c1c22;
+  --cr-secondary-dark-25: #921a20;
+  --cr-secondary-dark-30: #89191e;
+  --cr-secondary-dark-35: #7f171c;
+  --cr-secondary-dark-40: #75151a;
+  --cr-secondary-dark-45: #6b1318;
+  --cr-secondary-dark-50: #621216;
+  --cr-secondary-dark-55: #581013;
+  --cr-secondary-dark-60: #4e0e11;
+  --cr-secondary-dark-65: #440c0f;
+  --cr-secondary-dark-70: #3b0b0d;
+  --cr-secondary-dark-75: #31090b;
+  --cr-secondary-dark-80: #270709;
+  --cr-secondary-dark-85: #1d0506;
+  --cr-secondary-dark-90: #140404;
+  --cr-secondary-dark-95: #0a0202;
+  --cr-secondary-dark-100: black;
+}

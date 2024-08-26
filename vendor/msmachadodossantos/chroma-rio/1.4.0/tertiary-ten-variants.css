@@ -1,0 +1,66 @@
+/**
+ * Lighten a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to lighten.
+ * @param {Number} $amount - The amount by which to lighten the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after lightening.
+ */
+/**
+ * Adjust the tone of a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to adjust the tone of.
+ * @param {Number} $amount - The amount by which to adjust the tone (default: 10%).
+ *
+ * @return {Color} - The resulting color after adjusting the tone.
+ */
+/**
+ * Darken a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to darken.
+ * @param {Number} $amount - The amount by which to darken the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after darkening.
+ */
+/**
+ * Mix two colors together by a specified amount.
+ *
+ * @param {Color} $color1 - The first color to mix.
+ * @param {Color} $color2 - The second color to mix.
+ * @param {Number} $amount - The amount by which to mix the colors (default: 50%).
+ *
+ * @return {Color} - The resulting color after mixing.
+ */
+:root {
+  --cr-tertiary: #F7CAC9;
+  --cr-tertiary-light-10: #f8cfce;
+  --cr-tertiary-light-20: #f9d5d4;
+  --cr-tertiary-light-30: #f9dad9;
+  --cr-tertiary-light-40: #fadfdf;
+  --cr-tertiary-light-50: #fbe5e4;
+  --cr-tertiary-light-60: #fceae9;
+  --cr-tertiary-light-70: #fdefef;
+  --cr-tertiary-light-80: #fdf4f4;
+  --cr-tertiary-light-90: #fefafa;
+  --cr-tertiary-light-100: white;
+  --cr-tertiary-tone-10: #ebc3c2;
+  --cr-tertiary-tone-20: #dfbbba;
+  --cr-tertiary-tone-30: #d3b4b3;
+  --cr-tertiary-tone-40: #c7acac;
+  --cr-tertiary-tone-50: #bca5a5;
+  --cr-tertiary-tone-60: #b09e9d;
+  --cr-tertiary-tone-70: #a49696;
+  --cr-tertiary-tone-80: #988f8f;
+  --cr-tertiary-tone-90: #8c8787;
+  --cr-tertiary-tone-100: gray;
+  --cr-tertiary-dark-10: #deb6b5;
+  --cr-tertiary-dark-20: #c6a2a1;
+  --cr-tertiary-dark-30: #ad8d8d;
+  --cr-tertiary-dark-40: #947979;
+  --cr-tertiary-dark-50: #7c6565;
+  --cr-tertiary-dark-60: #635150;
+  --cr-tertiary-dark-70: #4a3d3c;
+  --cr-tertiary-dark-80: #312828;
+  --cr-tertiary-dark-90: #191414;
+  --cr-tertiary-dark-100: black;
+}

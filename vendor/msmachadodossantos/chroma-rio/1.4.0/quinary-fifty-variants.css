@@ -1,0 +1,186 @@
+/**
+ * Lighten a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to lighten.
+ * @param {Number} $amount - The amount by which to lighten the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after lightening.
+ */
+/**
+ * Adjust the tone of a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to adjust the tone of.
+ * @param {Number} $amount - The amount by which to adjust the tone (default: 10%).
+ *
+ * @return {Color} - The resulting color after adjusting the tone.
+ */
+/**
+ * Darken a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to darken.
+ * @param {Number} $amount - The amount by which to darken the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after darkening.
+ */
+/**
+ * Mix two colors together by a specified amount.
+ *
+ * @param {Color} $color1 - The first color to mix.
+ * @param {Color} $color2 - The second color to mix.
+ * @param {Number} $amount - The amount by which to mix the colors (default: 50%).
+ *
+ * @return {Color} - The resulting color after mixing.
+ */
+:root {
+  --cr-quinary: #FDF5EE;
+  --cr-quinary-light-2: #fdf5ee;
+  --cr-quinary-light-4: #fdf5ef;
+  --cr-quinary-light-6: #fdf6ef;
+  --cr-quinary-light-8: #fdf6ef;
+  --cr-quinary-light-10: #fdf6f0;
+  --cr-quinary-light-12: #fdf6f0;
+  --cr-quinary-light-14: #fdf6f0;
+  --cr-quinary-light-16: #fdf7f1;
+  --cr-quinary-light-18: #fdf7f1;
+  --cr-quinary-light-20: #fdf7f1;
+  --cr-quinary-light-22: #fdf7f2;
+  --cr-quinary-light-24: #fdf7f2;
+  --cr-quinary-light-26: #fef8f2;
+  --cr-quinary-light-28: #fef8f3;
+  --cr-quinary-light-30: #fef8f3;
+  --cr-quinary-light-32: #fef8f3;
+  --cr-quinary-light-34: #fef8f4;
+  --cr-quinary-light-36: #fef9f4;
+  --cr-quinary-light-38: #fef9f4;
+  --cr-quinary-light-40: #fef9f5;
+  --cr-quinary-light-42: #fef9f5;
+  --cr-quinary-light-44: #fef9f5;
+  --cr-quinary-light-46: #fefaf6;
+  --cr-quinary-light-48: #fefaf6;
+  --cr-quinary-light-50: #fefaf7;
+  --cr-quinary-light-52: #fefaf7;
+  --cr-quinary-light-54: #fefaf7;
+  --cr-quinary-light-56: #fefbf8;
+  --cr-quinary-light-58: #fefbf8;
+  --cr-quinary-light-60: #fefbf8;
+  --cr-quinary-light-62: #fefbf9;
+  --cr-quinary-light-64: #fefbf9;
+  --cr-quinary-light-66: #fefcf9;
+  --cr-quinary-light-68: #fefcfa;
+  --cr-quinary-light-70: #fefcfa;
+  --cr-quinary-light-72: #fefcfa;
+  --cr-quinary-light-74: #fefcfb;
+  --cr-quinary-light-76: #fffdfb;
+  --cr-quinary-light-78: #fffdfb;
+  --cr-quinary-light-80: #fffdfc;
+  --cr-quinary-light-82: #fffdfc;
+  --cr-quinary-light-84: #fffdfc;
+  --cr-quinary-light-86: #fffefd;
+  --cr-quinary-light-88: #fffefd;
+  --cr-quinary-light-90: #fffefd;
+  --cr-quinary-light-92: #fffefe;
+  --cr-quinary-light-94: #fffefe;
+  --cr-quinary-light-96: #fffffe;
+  --cr-quinary-light-98: white;
+  --cr-quinary-light-100: white;
+  --cr-quinary-tone-2: #fbf3ec;
+  --cr-quinary-tone-4: #f8f0ea;
+  --cr-quinary-tone-6: #f6eee7;
+  --cr-quinary-tone-8: #f3ece5;
+  --cr-quinary-tone-10: #f1e9e3;
+  --cr-quinary-tone-12: #eee7e1;
+  --cr-quinary-tone-14: #ece5df;
+  --cr-quinary-tone-16: #e9e2dc;
+  --cr-quinary-tone-18: #e7e0da;
+  --cr-quinary-tone-20: #e4ded8;
+  --cr-quinary-tone-22: #e2dbd6;
+  --cr-quinary-tone-24: #dfd9d4;
+  --cr-quinary-tone-26: #ddd7d1;
+  --cr-quinary-tone-28: #dad4cf;
+  --cr-quinary-tone-30: #d8d2cd;
+  --cr-quinary-tone-32: #d5d0cb;
+  --cr-quinary-tone-34: #d3cdc9;
+  --cr-quinary-tone-36: #d0cbc6;
+  --cr-quinary-tone-38: #cec9c4;
+  --cr-quinary-tone-40: #cbc6c2;
+  --cr-quinary-tone-42: #c9c4c0;
+  --cr-quinary-tone-44: #c6c2be;
+  --cr-quinary-tone-46: #c4bfbb;
+  --cr-quinary-tone-48: #c1bdb9;
+  --cr-quinary-tone-50: #bfbbb7;
+  --cr-quinary-tone-52: #bcb8b5;
+  --cr-quinary-tone-54: #bab6b3;
+  --cr-quinary-tone-56: #b7b3b0;
+  --cr-quinary-tone-58: #b5b1ae;
+  --cr-quinary-tone-60: #b2afac;
+  --cr-quinary-tone-62: #b0acaa;
+  --cr-quinary-tone-64: #adaaa8;
+  --cr-quinary-tone-66: #aba8a5;
+  --cr-quinary-tone-68: #a8a5a3;
+  --cr-quinary-tone-70: #a6a3a1;
+  --cr-quinary-tone-72: #a3a19f;
+  --cr-quinary-tone-74: #a19e9d;
+  --cr-quinary-tone-76: #9e9c9a;
+  --cr-quinary-tone-78: #9c9a98;
+  --cr-quinary-tone-80: #999796;
+  --cr-quinary-tone-82: #979594;
+  --cr-quinary-tone-84: #949392;
+  --cr-quinary-tone-86: #92908f;
+  --cr-quinary-tone-88: #8f8e8d;
+  --cr-quinary-tone-90: #8d8c8b;
+  --cr-quinary-tone-92: #8a8989;
+  --cr-quinary-tone-94: #888787;
+  --cr-quinary-tone-96: #858584;
+  --cr-quinary-tone-98: #838282;
+  --cr-quinary-tone-100: gray;
+  --cr-quinary-dark-2: #f8f0e9;
+  --cr-quinary-dark-4: #f3ebe4;
+  --cr-quinary-dark-6: #eee6e0;
+  --cr-quinary-dark-8: #e9e1db;
+  --cr-quinary-dark-10: #e4ddd6;
+  --cr-quinary-dark-12: #dfd8d1;
+  --cr-quinary-dark-14: #dad3cd;
+  --cr-quinary-dark-16: #d5cec8;
+  --cr-quinary-dark-18: #cfc9c3;
+  --cr-quinary-dark-20: #cac4be;
+  --cr-quinary-dark-22: #c5bfba;
+  --cr-quinary-dark-24: #c0bab5;
+  --cr-quinary-dark-26: #bbb5b0;
+  --cr-quinary-dark-28: #b6b0ab;
+  --cr-quinary-dark-30: #b1aca7;
+  --cr-quinary-dark-32: #aca7a2;
+  --cr-quinary-dark-34: #a7a29d;
+  --cr-quinary-dark-36: #a29d98;
+  --cr-quinary-dark-38: #9d9894;
+  --cr-quinary-dark-40: #98938f;
+  --cr-quinary-dark-42: #938e8a;
+  --cr-quinary-dark-44: #8e8985;
+  --cr-quinary-dark-46: #898481;
+  --cr-quinary-dark-48: #847f7c;
+  --cr-quinary-dark-50: #7f7b77;
+  --cr-quinary-dark-52: #797672;
+  --cr-quinary-dark-54: #74716d;
+  --cr-quinary-dark-56: #6f6c69;
+  --cr-quinary-dark-58: #6a6764;
+  --cr-quinary-dark-60: #65625f;
+  --cr-quinary-dark-62: #605d5a;
+  --cr-quinary-dark-64: #5b5856;
+  --cr-quinary-dark-66: #565351;
+  --cr-quinary-dark-68: #514e4c;
+  --cr-quinary-dark-70: #4c4a47;
+  --cr-quinary-dark-72: #474543;
+  --cr-quinary-dark-74: #42403e;
+  --cr-quinary-dark-76: #3d3b39;
+  --cr-quinary-dark-78: #383634;
+  --cr-quinary-dark-80: #333130;
+  --cr-quinary-dark-82: #2e2c2b;
+  --cr-quinary-dark-84: #282726;
+  --cr-quinary-dark-86: #232221;
+  --cr-quinary-dark-88: #1e1d1d;
+  --cr-quinary-dark-90: #191918;
+  --cr-quinary-dark-92: #141413;
+  --cr-quinary-dark-94: #0f0f0e;
+  --cr-quinary-dark-96: #0a0a0a;
+  --cr-quinary-dark-98: #050505;
+  --cr-quinary-dark-100: black;
+}
