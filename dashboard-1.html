@@ -1,0 +1,886 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage - Universidade Católica de Santos</title>
+
+  <link rel="stylesheet" href="vendor/msmachadodossantos/chroma-rio/1.4.0/rgb-wheel-twenty-variants.min.css" />
+  <link rel="stylesheet" href="vendor/msmachadodossantos/chroma-rio/1.4.0/shadow-twenty-variants.min.css" />
+  <link rel="stylesheet" href="vendor/msmachadodossantos/chroma-rio/1.4.0/brand-twenty-variants.min.css" />
+  <link rel="stylesheet" href="vendor/msmachadodossantos/chroma-rio/1.4.0/primary-twenty-variants.min.css" />
+  <link rel="stylesheet" href="vendor/msmachadodossantos/chroma-rio/1.4.0/secondary-twenty-variants.min.css" />
+  <link rel="stylesheet" href="vendor/msmachadodossantos/chroma-rio/1.4.0/tertiary-twenty-variants.min.css" />
+  <link rel="stylesheet" href="vendor/msmachadodossantos/chroma-rio/1.4.0/quaternary-twenty-variants.min.css" />
+  <link rel="stylesheet" href="vendor/msmachadodossantos/chroma-rio/1.4.0/quinary-twenty-variants.min.css" />
+  <link rel="stylesheet" href="vendor/msmachadodossantos/chroma-rio/1.4.0/elevation.min.css" />
+
+  <link rel="stylesheet"
+    href="vendor/msmachadodossantos/chroma-rio/1.4.0/vendor/twbs/bootstrap/5.3.3/css/bootstrap.min.css" />
+  <script defer
+    src="vendor/msmachadodossantos/chroma-rio/1.4.0/vendor/twbs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="vendor/twbs/icons/1.11.3/font/bootstrap-icons.min.css" />
+
+  <link rel="stylesheet" href="asset/core/css/core.min.css" />
+  <script defer src="asset/core/js/core.min.js"></script>
+  <link rel="stylesheet" href="asset/core/css/core.min.css" />
+  <script defer src="asset/core/js/core.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <!-- <div class="pg-language-selector">
+      <div class="container-xxl">
+        <div class="row gap-md-3">
+          <div class="col"><a href="#">de-DE</a></div>
+          <div class="col"><a href="#">en-US</a></div>
+          <div class="col"><a href="#">es-ES</a></div>
+          <div class="col"><a href="#">fr-FR</a></div>
+          <div class="col"><a href="#">ja-JP</a></div>
+          <div class="col active"><a href="#">pt-BR</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pg-title-bar">
+      <div class="container-xxl">
+        <div class="row">
+          <div class="col">
+            <img src="asset/core/image/logo-horizontal-white-233px.png" />
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+  <div class="pg-icon-bar">
+    <div class="container-xxl">
+      <div class="row">
+        <div class="col">
+          <span data-bs-toggle="tooltip" data-bs-placement="top" title="Abra o menu Páginas.">
+            <i class="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#1717602704"
+              aria-controls="1717602704"></i>
+          </span>
+          <small class="icon-label">Páginas</small>
+        </div>
+
+        <div class="col">
+          <span data-bs-toggle="tooltip" data-bs-placement="top" title="Abra o menu Apps.">
+            <i class="bi bi-terminal" data-bs-toggle="offcanvas" data-bs-target="#1717603482"
+              aria-controls="1717603482"></i>
+          </span>
+          <small class="icon-label">Apps</small>
+        </div>
+
+        <div class="col">
+          <span data-bs-toggle="tooltip" data-bs-placement="top" title="Abra o menu Config.">
+            <i class="bi bi-gear" data-bs-toggle="offcanvas" data-bs-target="#1717604480"
+              aria-controls="1717604480"></i>
+          </span>
+          <small class="icon-label">Config.</small>
+        </div>
+
+        <div class="col">
+          <span data-bs-toggle="tooltip" data-bs-placement="top" title="Vá para a Busca!">
+            <i class="bi bi-search"></i>
+          </span>
+          <small class="icon-label">Busca</small>
+        </div>
+
+        <div class="col">
+          <span data-bs-toggle="tooltip" data-bs-placement="top" title="Sair do sistema.">
+            <i class="bi bi-box-arrow-in-right"></i>
+          </span>
+          <small class="icon-label">Sair</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-start offcanvas-pages" data-bs-backdrop="static" tabindex="-1" id="1717602704"
+    aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="staticBackdropLabel1">Páginas.</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="p-3">
+        <div class="input-group">
+          <input type="text" class="form-control" aria-label="Filtrar páginas." aria-describedby="filtra-paginas"
+            placeholder="Filtrar páginas." />
+          <span class="input-group-text" id="filtra-paginas"><i class="bi bi-funnel"></i></span>
+        </div>
+      </div>
+
+      <nav class="nav flex-column">
+        <a class="nav-link" href="index.html">
+          <i class="bi bi-house"></i>
+          Homepage.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Sobre a Instituição.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link disabled" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          História e Missão.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          História.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Missão, Visão e Valores.
+        </a>
+        <a class="nav-link disabled" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Visão Católica.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Tradição e Ensinamentos.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Relação com a Igreja.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Capelania e Vida Espiritual.
+        </a>
+        <a class="nav-link disabled" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Estrutura Organizacional.
+        </a>
+        <a class="indent-1 nav-link disabled" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Governança.
+        </a>
+        <a class="indent-2 nav-link" href="inner-page.html">
+          <i class="bi bi-arrow-right-short"></i>
+          Conselho Universitário.
+        </a>
+        <a class="indent-2 nav-link" href="inner-page.html">
+          <i class="bi bi-arrow-right-short"></i>
+          Colegiado de Conselheiros.
+        </a>
+        <a class="indent-2 nav-link" href="inner-page.html">
+          <i class="bi bi-arrow-right-short"></i>
+          Equipe Administrativa.
+        </a>
+        <a class="indent-1 nav-link disabled" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Equipe Acadêmica.
+        </a>
+        <a class="indent-2 nav-link" href="inner-page.html">
+          <i class="bi bi-arrow-right-short"></i>
+          Faculdades e Departamentos.
+        </a>
+        <a class="indent-2 nav-link" href="inner-page.html">
+          <i class="bi bi-arrow-right-short"></i>
+          Professores e Pesquisadores.
+        </a>
+        <a class="nav-link disabled" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Sustentabilidade e Responsabilidade Social.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Iniciativas Ambientais.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Projetos de Responsabilidade Social.
+        </a>
+        <a class="nav-link disabled" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Reconhecimento e Prêmios.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Prêmios Recebidos.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Reconhecimento na Mídia.
+        </a>
+        <a class="nav-link disabled" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Contato.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Informações de Contato.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Mapa e Direções.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Formulário de Contato.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          FAQ (Perguntas Frequentes).
+        </a>
+        <a class="nav-link disabled" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Carreiras.
+        </a>
+        <a class="indent-1 nav-link disabled" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Oportunidades de Emprego.
+        </a>
+        <a class="indent-2 nav-link" href="inner-page.html">
+          <i class="bi bi-arrow-right-short"></i>
+          Vagas Abertas.
+        </a>
+        <a class="indent-2 nav-link" href="inner-page.html">
+          <i class="bi bi-arrow-right-short"></i>
+          Processo Seletivo.
+        </a>
+        <a class="indent-1 nav-link disabled" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Cultura Organizacional.
+        </a>
+        <a class="indent-2 nav-link" href="inner-page.html">
+          <i class="bi bi-arrow-right-short"></i>
+          Ambiente de Trabalho.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Formas de Ingresso.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Prova
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Desempenho/Aproveitamento
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          ENEM – Exame Nacional do Ensino Médio
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Transferências
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Bolsas de Estudo.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Lista das bolsas de estudo disponíveis.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Os nossos cursos.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Qualificação e Aperfeiçoamento.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Tecnólogo.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Licenciatura.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Bacharelado.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Pós-Graduação Lato Sensu.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Mestrado.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Doutorado.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Pós-Doutorado.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Centro de Línguas.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Treinamentos In Company.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Pesquisa.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Grupos de Pesquisa.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Comitê de Iniciação Científica.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Comitê de Ética em Pesquisa.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Centros de Tecnologia e Inovação.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Centro de Tecnologia e Inovação em Gastronomia e Nutrição.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Laboratórios.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Cátedras.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Boletim Análise de Conjuntura Econômica.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Boletim Conjunturas e Perspectivas.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Boletim Índice do Custo da Cesta Básica de Alimentos.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Extensão.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Serviços à Sociedade.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Documentos.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Projeto Cultural.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Educação Patrimonial: Fortes e Fortalezas.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Pibid.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Enriquecimento Curricular.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Relatório de Responsabilidade Social.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Biblioteca.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Acervo.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Bases de dados de acesso restrito.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Biblioteca do Campus D. Idílio.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Biblioteca digital.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Regulamento e comunicados.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Fontes seguras de acesso aberto.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Portal de Periódicos CAPES.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Acessibilidade.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Recursos Antiplágio.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Crie seu ORCID.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Editora.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Sobre a Editora.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Revista Leopoldianum.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Revista Pesquiseduca.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Como submeter um artigo.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Publicações Internacionais.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          e-Books.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Anais/Resumos.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Literativa.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Internacional.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Mobilidade Acadêmica.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Convênios Internacionais.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Programas Santander.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Programas Capes.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Afiliações Internacionais.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Eventos Internacionais.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Internacionalização da Pesquisa.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Editais.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Editais abertos.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Editais encerrados.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Editais de Licitação abertos.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Editais de Licitação encerrados.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Downloads.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Diretrizes para a Extensão na Educação Superior Brasileira -
+          Resolução CNE/CES Nº 7, de 18 de Dezembro de 2018.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Diretrizes para as Políticas de Extensão na Educação Superior
+          Brasileira - Parecer CNE/CES Nº 608/2018.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Extensão nas Instituições Comunitárias de Ensino Superior - FOREXT.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Política Nacional de Extensão Universitária - FORPROEX.
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-start offcanvas-apps" data-bs-backdrop="static" tabindex="-1" id="1717603482"
+    aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="staticBackdropLabel2">Apps.</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="p-3">
+        <div class="input-group">
+          <input type="text" class="form-control" aria-label="Filtrar apps." aria-describedby="filtra-paginas"
+            placeholder="Filtrar apps." />
+          <span class="input-group-text" id="filtra-paginas"><i class="bi bi-funnel"></i></span>
+        </div>
+      </div>
+
+      <nav class="nav flex-column">
+        <a class="nav-link" href="dashboard.html">
+          <i class="bi bi-kanban"></i>
+          Dashboard.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Taxonomy term.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #1.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #2.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #3.
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-start offcanvas-settings" data-bs-backdrop="static" tabindex="-1" id="1717604480"
+    aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="staticBackdropLabel3">Settings.</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="m-3 alert alert-warning alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <p>Some apps aren't listed because you lack access to them.</p>
+        <p class="m-0 small">34 apps are not listed in this menu.</p>
+      </div>
+
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          App unclassified #1.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          App unclassified #2.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          App unclassified #3.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Taxonomy term.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #1.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #2.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #3.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Classified app #3.1.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Classified app #3.2.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Classified app #3.3.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Classified app #3.4.
+        </a>
+        <a class="indent-1 nav-link" href="inner-page.html">
+          <i class="bi bi-dot"></i>
+          Classified app #3.5.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #4.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #5.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #6.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #7.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #8.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #9.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #10.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #11.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #12.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #13.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Taxonomy term.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #1.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #2.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #3.
+        </a>
+      </nav>
+
+      <div class="nav-title">
+        <p>Taxonomy term.</p>
+      </div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #1.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #2.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #3.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #4.
+        </a>
+        <a class="nav-link" href="inner-page.html">
+          <i class="bi bi-stop-fill"></i>
+          Classified app #5.
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="my-3 container-xxl">
+    <div class="row">
+      <div class="col-12">
+        <div class="bento">
+          <div class="bento-header">Lista de Pendências <small>/ Perfil Diretor de Centro</small></div>
+          <div class="bento-body">
+            <div class="table-responsive">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-8">Curso</th>
+                    <th>Qtd. de pendências</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td><a>Curso #1</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #2</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a href="dashboard-2.html">Curso #3</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #4</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #5</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #6</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #7</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #8</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #9</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #10</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #11</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #12</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #13</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #14</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #15</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #16</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #17</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #18</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #19</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #20</a></td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td><a>Curso #21</a></td>
+                    <td>21</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
